@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:sqlite_order_app/screens/order/homepage_screen.dart';
 
-import 'homepage_screen.dart';
-
-void main() {
+Future<void> main() async {
   runApp(const MainApp());
 }
 
